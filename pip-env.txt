@@ -1,0 +1,2 @@
+pyautogui==0.9.54
+websocket-client==1.8.0
