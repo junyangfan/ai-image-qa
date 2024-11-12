@@ -3,6 +3,8 @@
 
 图片识别、自动化问答 AI助手，使用 python 语言，基于AI的图片识别及问答功能。
 
+**其他 AI 模型正在接入中，欢迎大家提 PR ！**
+
 <video src="https://github.com/user-attachments/assets/b3f35770-049c-4ca1-bf6e-07b83f0d0704" data-canonical-src="https://github.com/user-attachments/assets/b3f35770-049c-4ca1-bf6e-07b83f0d0704" controls="controls" muted="muted" style="max-height:640px; min-height: 200px"></video>
 
 # 使用
@@ -38,8 +40,6 @@ python -m model.qw
 ```shell
 python -m model.xf
 ```
-
-其他 AI 模型正在接入中，欢迎大家提 PR ！
 
 ### 4. 终止程序
 直接在终端中按 `Ctrl + C`， 即可终止程序（Mac 为 `command + C`）。
