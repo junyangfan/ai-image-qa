@@ -1,4 +1,4 @@
-# image-identify
+# ai-image-qa
 
 
 图片识别、自动化问答 AI助手，使用 python 语言，基于AI的图片识别及问答功能。
