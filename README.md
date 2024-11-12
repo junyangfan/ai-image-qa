@@ -47,3 +47,9 @@ python -m model.xf
 
 ### 4. 终止程序
 直接在终端中按 `Ctrl + C`， 即可终止程序（Mac 为 `command + C`）。
+
+# 交流群
+
+如果对你有用，欢迎点个 Star，也可以加入群组，一起交流、讨论、学习。
+
+![交流群](https://assets.fjy.zone/images/group-qrcode.png)
