@@ -11,6 +11,10 @@
 
 <video src="https://github.com/user-attachments/assets/b3f35770-049c-4ca1-bf6e-07b83f0d0704" data-canonical-src="https://github.com/user-attachments/assets/b3f35770-049c-4ca1-bf6e-07b83f0d0704" controls="controls" muted="muted" style="max-height:640px; min-height: 200px"></video>
 
+# Todo
+- [ ] 可手动框选截图区域
+- [ ] ......
+
 # 使用
 ### 1. 安装依赖（需要使用 python3.x）
 ```shell
@@ -37,6 +41,11 @@ python -m ssi
 通义千问 AI 轮询问答
 ```shell
 python -m model.qw
+```
+
+ChatGPT AI 轮询问答
+```shell
+python -m model.chatgpt
 ```
 
 讯飞星火 AI 轮询问答
