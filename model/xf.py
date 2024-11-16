@@ -10,7 +10,6 @@ from urllib.parse import urlparse, urlencode
 from io import BytesIO
 from wsgiref.handlers import format_date_time
 import _thread as thread
-import pyautogui
 from utils.image_utils import capture_and_convert_to_base64  # 导入通用方法
 import config  # 导入配置文件
 
@@ -154,7 +153,7 @@ def capture_periodically(region, interval=config.CAPTURE_INTERVAL):
             print(f"发送的图像数据（部分）：{img_base64[:30]}...")  # 打印base64字符串的前30个字符进行验证
 
             # 启动WebSocket连接并将base64图像数据传递给模型
-            main(config.SPARKAI_APP_ID, config.SPARKAI_API_KEY, config.SPARKAI_API_SECRET, config.SPARKAI_URL, img_base64)
+            main(config.SPARKAI_APP_ID, config.SPARKAI_API_KEY, config.SPARKAI_API_SECRET, config.SPARKAI_BASE_URL, img_base64)
         else:
             print("图片未变化，跳过请求")
 
