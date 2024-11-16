@@ -14,12 +14,12 @@
 # 使用
 ### 1. 安装依赖（需要使用 python3.x）
 ```shell
-pip install -r pip-env.txt
+pip install -r requirements.txt
 ```
 
 如果是 Mac M 系列芯片，需要在命令之前加上 `arch -arm64`，如下：
 ```shell
-arch -arm64 pip install -r pip-env.txt
+arch -arm64 pip install -r requirements.txt
 ``` 
 
 ### 2. 配置参数
