@@ -39,7 +39,7 @@ python -m ssi
 python -m model.qw
 ```
 
-讯飞 AI 轮询问答
+讯飞星火 AI 轮询问答
 
 ```shell
 python -m model.xf
