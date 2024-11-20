@@ -35,7 +35,7 @@ arch -arm64 pip install -r requirements.txt
 
 在本地生成图片，用来测试图片是否符合要求（保证问题和答案全都在图片内）
 ```shell
-python -m ssi
+python -m utils.ssi
 ```
 
 通义千问 AI 轮询问答
