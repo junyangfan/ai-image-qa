@@ -25,4 +25,4 @@ SPARKAI_DOMAIN = 'image'
 # 修改 ALIYUN_API_KEY 参数，ALIYUN_BASE_URL、ALIYUN_MODEL 参数无需修改
 ALIYUN_API_KEY = 'apiKey'
 ALIYUN_BASE_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
-ALIYUN_MODEL = 'qwen-vl-max-latest'
+ALIYUN_MODEL = 'qwen-vl-max-latest' # 可选模型地址(用VL模型)：https://help.aliyun.com/zh/model-studio/models#94b18818a6ywy
